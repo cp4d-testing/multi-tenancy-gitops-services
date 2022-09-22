@@ -6,6 +6,6 @@ spec:
   license:
     accept: true
     license: Enterprise
-  storageClass: ibmc-block-gold
-  zenCoreMetadbStorageClass: ibmc-block-gold
+  storageClass: managed-nfs-storage
+  zenCoreMetadbStorageClass: managed-nfs-storage
   version: "4.0.1"
