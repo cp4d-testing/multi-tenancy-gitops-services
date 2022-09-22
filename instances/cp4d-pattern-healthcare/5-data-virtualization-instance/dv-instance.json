@@ -10,9 +10,9 @@
           "image.pullPolicy": "IfNotPresent",
           "workerCount": "1",
           "enableHostIPC": "true",
-          "persistence.storageClass": "managed-nfs-storage",
-          "persistence.workerpv.storageClass": "managed-nfs-storage",
-          "persistence.cachingpv.storageClass": "managed-nfs-storage",
+          "persistence.storageClass": "ibmc-file-gold",
+          "persistence.workerpv.storageClass": "ibmc-file-gold",
+          "persistence.cachingpv.storageClass": "ibmc-file-gold",
           "persistence.size": "50Gi",
           "persistence.workerpv.size": "25Gi",
           "persistence.cachingpv.size": "50Gi"

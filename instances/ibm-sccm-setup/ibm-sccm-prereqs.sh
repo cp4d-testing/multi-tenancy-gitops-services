@@ -88,7 +88,7 @@ rm truststore.jks
 rm delete-ibm-sccm-keystore-jks.yaml
 
 # SCCM PVC's
-RWX_STORAGECLASS=${RWX_STORAGECLASS:-managed-nfs-storage}
+RWX_STORAGECLASS=${RWX_STORAGECLASS:-ibmc-file-gold}
 
 echo "Building PVC"
 ( echo "cat <<EOF" ; cat ibm-sccm-pvc.yaml_template ;) | \
